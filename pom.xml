@@ -82,6 +82,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>my-blog-1.0</finalName>
+		<finalName>amine-project-1.0</finalName>
 	</build>
 </project>
