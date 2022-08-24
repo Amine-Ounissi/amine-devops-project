@@ -1,9 +1,7 @@
-##CI/CD avec Spring Boot 
-
 				Personal project
 				
 				
-Création d'une chaine CI/CD complète d'une application Spring Boot.
+Création d'une chaine CI/CD complète d'une application Spring Boot d'une architecture MVC (Model, View, Controller)
 
 tools:
 
@@ -13,4 +11,6 @@ tools:
 -Nexus
 -Azure
 -Kubernetes
+
+##Spring MVC framework consists of four components : Model, View, Controller, and Front Controller
 
