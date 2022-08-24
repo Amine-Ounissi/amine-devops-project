@@ -1,8 +1,11 @@
-			Projet Personel
+##CI/CD avec Spring Boot 
 
-Création d'une chaine CI/CD complète d'une application.
+				Personal project
+				
+				
+Création d'une chaine CI/CD complète d'une application Spring Boot.
 
-Tools:
+tools:
 
 -Jenkins
 -Github
