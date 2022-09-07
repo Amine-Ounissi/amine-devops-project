@@ -1,7 +1,9 @@
-			Projet Personel
+				Personal project
+				
+				
+Création d'une chaine CI/CD complète d'une application Spring Boot d'une architecture MVC (Model, View, Controller)
 
-Création d'une chaine CI/CD complète d'une application.
-Tools:
+tools:
 
 -Jenkins
 -Github
@@ -9,4 +11,6 @@ Tools:
 -Nexus
 -Azure
 -Kubernetes
+
+##Spring MVC framework consists of four components : Model, View, Controller, and Front Controller
 
