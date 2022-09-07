@@ -1,0 +1,8 @@
+/home/azureuser/amine-devops-project/src/main/java/com/sb/myblog/LaunchApplication.java
+/home/azureuser/amine-devops-project/src/main/java/com/sb/myblog/exception/BlogEntryNotFoundException.java
+/home/azureuser/amine-devops-project/src/main/java/com/sb/myblog/model/GenericBean.java
+/home/azureuser/amine-devops-project/src/main/java/com/sb/myblog/controller/BlogAppController.java
+/home/azureuser/amine-devops-project/src/main/java/com/sb/myblog/swagger/SwaggerConfig.java
+/home/azureuser/amine-devops-project/src/main/java/com/sb/myblog/service/BlogAppService.java
+/home/azureuser/amine-devops-project/src/main/java/com/sb/myblog/repository/IBlogAppRepository.java
+/home/azureuser/amine-devops-project/src/main/java/com/sb/myblog/model/blogentry/BlogEntryBean.java
