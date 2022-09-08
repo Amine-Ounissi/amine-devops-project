@@ -1,59 +1,10 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Pod
 metadata:
   name: amine
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: amine
-  strategy:
-    rollingUpdate:
-      maxSurge: 1
-      maxUnavailable: 1
-  minReadySeconds: 5
-  template:
-    metadata:
-      labels:
-        app: amine
-    spec:
-      nodeSelector:
-        "beta.kubernetes.io/os": linux
-      containers:
-      - name: amine
-        image: 20.225.57.67:8081v2/my-job/manifests/1.0.1-17
-        imagePullPolicy: Never
-        ports:
-            - name: http
-              containerPort: 8080
-              protocol: TCP
-        resources:
-            requests:
-              cpu: 400m
-              memory: 500Mi
-            limits:
-              cpu: 400m
-              memory: 1000Mi
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: amine
-spec:
-  type: LoadBalancer
-  ports:
-  - port: 8080
-  selector:
-    app: amine
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: amine-cluster-ip
-spec:
-  selector:
-    app: amine
-  ports:
-    - protocol: TCP
-      port: 8080
-      targetPort: 8080
+  containers:
+  - name: my-job
+    image: 20.225.57.67:8083/my-job:1.0.1-16
+  imagePullSecrets:
+  - name: nexus-docker
