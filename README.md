@@ -6,20 +6,28 @@ CI/CD pipeline for a Spring Boot application with MVC architecture (Model, View,
 Tools:
 
 ●Jenkins
+
 ●Github
+
 ●Docker
+
 ●Nexus
+
 ●Azure
+
 ●Kubernetes
 
-##Spring MVC framework consists of four components : Model, View, Controller, and Front Controller
+Spring MVC framework consists of four components : Model, View, Controller, and Front Controller
 This application is packaged as jar file which can be run on a docker container.
 The tomcat is embedded in the application set-up so no need to configure it separately. 
 In order to run the application we must install few things as follows.
 
 ●Java 1.8 or higher
+
 ●Maven
-About the Service
+
+About the Service:
+
 This API exposes the following services:
 
 -Create a new blog entry.
