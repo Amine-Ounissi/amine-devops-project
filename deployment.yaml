@@ -19,12 +19,12 @@ spec:
     spec:
       nodeSelector:
         "kubernetes.io/os": linux
+      imagePullSecrets:
+      - name: nexus-docker 
       containers:
       - name: my-job
         image: 20.225.57.67:8083/my-job:$IMAGE_NAME
-        imagePullPolicy: Always
-      imagePullSecrets:
-      - name: nexus-docker  
+        imagePullPolicy:  IfNotPresent
         ports:
             - name: http
               containerPort: 8080
