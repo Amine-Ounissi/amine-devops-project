@@ -16,6 +16,7 @@ Tools:
 ●Azure
 
 ●Kubernetes
+My-blog is a Spring MVC application with few services such as create, update, delete and view a blog.
 
 Spring MVC framework consists of four components : Model, View, Controller, and Front Controller
 This application is packaged as jar file which can be run on a docker container.
