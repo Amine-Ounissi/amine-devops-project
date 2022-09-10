@@ -1,7 +1,7 @@
 ## Personal Project
 				
 				
-CI/CD pipeline for a Spring Boot application with MVC architecture (Model, View, Controller)
+CI/CD pipeline of a Spring Boot application with MVC architecture (Model, View, Controller)
 
 Tools:
 
